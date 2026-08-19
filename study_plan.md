@@ -102,6 +102,7 @@ Checklist at the end, not a textbook: [LLM Fine Tuning Interview Handbook].
 FastAPI, threading, and full Docker arrive here, because there is now something to serve.
 
 Inference mechanics (KV cache, paged attention, continuous batching, speculative decoding):
+- [Inference Engineering github](https://github.com/elizabetht/100-days-of-inference)
 - [Engineering behind LLM Inference](https://www.youtube.com/playlist?app=desktop&list=PLqO45Dg1pMhlDBZTMqVL2GU-14xYip2y2)
 - [LLM inference questions](https://drive.google.com/file/d/1mfTzOnwn8yx4eKObjPvpd-B_toGkQ_tu/view)
 
@@ -121,6 +122,7 @@ Serving stack and system design (doubles as interview prep):
 - [Primer on sys-design](https://medium.com/@shivambhadani_/system-design-for-beginners-everything-you-need-in-one-article-c74eb702540b)
 - [LLD System Design](https://interviewready.io/account)
 - [The Accidental CTO](https://github.com/subhashchy/The-Accidental-CTO) - skim, context not curriculum
+- [Distrbuted Learning in PyTorch](https://www.youtube.com/watch?v=XoGvCBRnwLs)
 
 ---
 
