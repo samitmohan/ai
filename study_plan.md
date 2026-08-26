@@ -2,11 +2,11 @@
 
 Gate out of each phase before starting the next.
 
+- Read [tinygrad](https://github.com/tinygrad/tinygrad) codebase everyday
+
 ---
 
 ## Phase 0: Unblock (2-3 weeks)
-
-CS336's stated prerequisites, nothing more.
 
 - [Essential Math](https://alisawuffles.notion.site/math-notes#3737eb87360580b3b555e3c616713286) - only the rusty parts: linalg, probability, matrix calculus, napkin math
 - [Karpathy Zero to Hero] - all 8 videos, typed by hand in a blank file
@@ -38,6 +38,8 @@ Deferred out of this phase: CUDA book (Phase 2), FastAPI/threading (Phase 4), CN
 - MiniTorch code walkthrough; read tinygrad (geohot) and blog on making your own pytorch (minitorch redo)
 
 **Gate:** [GPT-2 from an empty file, no reference, under an hour, and it trains](https://www.youtube.com/watch?v=xmkSf5IS-zw&t=1636s). Repeat until true. Do not start Phase 2 before passing.
+
+Rebuild tinygrad -> minitorch as much.
 
 ---
 
@@ -157,9 +159,9 @@ Agents, build before reading about frameworks:
 
 ## Parallel tracks (never phases)
 
+- Build minitorch: from tinygrad
 - **Neetcode150** - [2/day from Phase 0 onward](https://neetcode.io/practice/practice/neetcode150). A warmup, not a block of study time. Plus ByteByteGo interview patterns
 - **Vision/multimodal** - weekend track during Phases 2-4: [ViT](https://arxiv.org/abs/2010.11929), [CLIP](https://arxiv.org/abs/2103.00020), [VAE](https://arxiv.org/abs/1312.6114), [DDPM](https://arxiv.org/abs/2006.11239), [SAM](https://arxiv.org/abs/2304.02643), [Whisper](https://arxiv.org/abs/2212.04356). Put the [CNN recap](https://www.youtube.com/playlist?list=PLVZqlMpoM6kaJX_2lLKjEhWI0NlqHfqzp) immediately before ViT, also read and implement UNet
-- **Writing** - one blog per phase, on the thing you just built. This is the leverage
 - **Revision** - [The Hitchhiker's Guide to Agentic AI](https://arxiv.org/abs/2606.24937) (Roitman, June 2026). Single-author synthesis spanning Phases 2-5. Not for learning. Two uses: (a) after each phase, read only the matching chapter as a self-test - if you cannot spot what it flattens, you did not learn the phase; (b) whole thing in two sittings before interviews, for the taxonomies (agent design patterns, memory split, multi-agent topologies). Start with the [12-page visual summary](https://gist.github.com/vukrosic/9fb5a16da25101382f42b43939b74de5); if it surfaces nothing new, skip the book. Caveat: 51 points and 4 comments on HN, one comment on alphaXiv. No peer scrutiny. Do not repeat any number it states without tracing the primary source
 - **Interview layer** - two weeks before actually interviewing, not now: [ML Interview Topics](https://silviasapora.github.io/blog/ml-interviews.html), [your interview page](https://samitmohan.in/interviews) (resume line by line, every project and blog), [How to land a frontier job](https://vladfeinberg.com/2026/05/10/how-to-land-a-job-at-a-frontier-lab.html) and use TensorTonic
 
@@ -172,8 +174,9 @@ The original plan lists resources with no build targets. Four checkpoints, one p
 
 1. GPT-2 from a blank file, under an hour, no reference (Phase 1)
 2. A Triton attention kernel beating naive attention, with measured wall-clock and achieved bandwidth (Phase 2)
-3. A fine-tuned model on a chosen task, with eval harness and a writeup of failures (Phase 3)
-4. A RAG + agent system in daily use (Phase 5)
+3. Tinygrad
+4. A fine-tuned model on a chosen task, with eval harness and a writeup of failures (Phase 3)
+5. A RAG + agent system in daily use (Phase 5)
 
 Rewrite all blogs from scratch.
 
@@ -183,3 +186,5 @@ Rewrite all blogs from scratch.
 
 Phases sum to roughly 6-9 months of contiguous effort
 Track hours and completion through Phase 0, then recalibrate.
+
+[Revision](https://docs.google.com/document/d/e/2PACX-1vQD8IlBotGdBxp3BnXkSjk8bNZlPV_0EH9ZA6wHd5dNf-BLSiwXUinvgv8ZoBEnNyTCF-chWO30NRw0/pub)
