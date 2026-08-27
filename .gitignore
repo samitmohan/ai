@@ -1,0 +1,15 @@
+# Obsidian: config JSON is committed, plugin code and session state are not
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/cache
+
+# Obsidian scratch formats
+*.base
+*.canvas
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/

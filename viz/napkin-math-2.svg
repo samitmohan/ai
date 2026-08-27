@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="960" height="540" fill="#fbfbf9"/>
+<text x="92" y="30" font-size="17" font-weight="600" fill="#1a1a1a">Address bits, not working set: one cache line touched per page</text>
+<text x="92" y="52" font-size="12.5" fill="#777">8 MiB of data either way. Offset 0 in every page shares the cache set-index bits and reads like DRAM.</text>
+<line x1="92" y1="449.0" x2="934" y2="449.0" stroke="#e3e3de" stroke-width="1"/>
+<text x="82" y="453.0" font-size="12" fill="#666" text-anchor="end">1 ns</text>
+<line x1="92" y1="400.5" x2="934" y2="400.5" stroke="#e3e3de" stroke-width="1"/>
+<text x="82" y="404.5" font-size="12" fill="#666" text-anchor="end">2 ns</text>
+<line x1="92" y1="336.3" x2="934" y2="336.3" stroke="#e3e3de" stroke-width="1"/>
+<text x="82" y="340.3" font-size="12" fill="#666" text-anchor="end">5 ns</text>
+<line x1="92" y1="287.8" x2="934" y2="287.8" stroke="#e3e3de" stroke-width="1"/>
+<text x="82" y="291.8" font-size="12" fill="#666" text-anchor="end">10 ns</text>
+<line x1="92" y1="239.2" x2="934" y2="239.2" stroke="#e3e3de" stroke-width="1"/>
+<text x="82" y="243.2" font-size="12" fill="#666" text-anchor="end">20 ns</text>
+<line x1="92" y1="175.1" x2="934" y2="175.1" stroke="#e3e3de" stroke-width="1"/>
+<text x="82" y="179.1" font-size="12" fill="#666" text-anchor="end">50 ns</text>
+<line x1="92" y1="126.5" x2="934" y2="126.5" stroke="#e3e3de" stroke-width="1"/>
+<text x="82" y="130.5" font-size="12" fill="#666" text-anchor="end">100 ns</text>
+<line x1="92" y1="78.0" x2="934" y2="78.0" stroke="#e3e3de" stroke-width="1"/>
+<text x="82" y="82.0" font-size="12" fill="#666" text-anchor="end">200 ns</text>
+<line x1="92.0" y1="78" x2="92.0" y2="474" stroke="#e3e3de" stroke-width="1"/>
+<text x="92.0" y="494" font-size="12" fill="#666" text-anchor="middle">16</text>
+<line x1="185.6" y1="78" x2="185.6" y2="474" stroke="#e3e3de" stroke-width="1"/>
+<text x="185.6" y="494" font-size="12" fill="#666" text-anchor="middle">64</text>
+<line x1="279.1" y1="78" x2="279.1" y2="474" stroke="#e3e3de" stroke-width="1"/>
+<text x="279.1" y="494" font-size="12" fill="#666" text-anchor="middle">256</text>
+<line x1="372.7" y1="78" x2="372.7" y2="474" stroke="#e3e3de" stroke-width="1"/>
+<text x="372.7" y="494" font-size="12" fill="#666" text-anchor="middle">1024</text>
+<line x1="466.2" y1="78" x2="466.2" y2="474" stroke="#e3e3de" stroke-width="1"/>
+<text x="466.2" y="494" font-size="12" fill="#666" text-anchor="middle">4096</text>
+<line x1="559.8" y1="78" x2="559.8" y2="474" stroke="#e3e3de" stroke-width="1"/>
+<text x="559.8" y="494" font-size="12" fill="#666" text-anchor="middle">16384</text>
+<line x1="653.3" y1="78" x2="653.3" y2="474" stroke="#e3e3de" stroke-width="1"/>
+<text x="653.3" y="494" font-size="12" fill="#666" text-anchor="middle">65536</text>
+<text x="513" y="524" font-size="13" fill="#333" text-anchor="middle">pages live, one cache line touched in each (log scale)</text>
+<line x1="446.8" y1="86" x2="446.8" y2="474" stroke="#e03131" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="436.8" y="98.1" font-size="12.5" fill="#e03131" text-anchor="end">L2 TLB reach, ~3072 entries &#8594;</text>
+<polyline points="92.0,354.1 185.6,347.5 279.1,319.0 372.7,250.9 419.4,218.6 446.8,214.4 466.2,206.2 513.0,205.7 559.8,186.1 606.6,137.4 653.3,128.1" fill="none" stroke="#e8590c" stroke-width="2.5"/>
+<circle cx="92.0" cy="354.1" r="3.4" fill="#e8590c"/>
+<circle cx="185.6" cy="347.5" r="3.4" fill="#e8590c"/>
+<circle cx="279.1" cy="319.0" r="3.4" fill="#e8590c"/>
+<circle cx="372.7" cy="250.9" r="3.4" fill="#e8590c"/>
+<circle cx="419.4" cy="218.6" r="3.4" fill="#e8590c"/>
+<circle cx="446.8" cy="214.4" r="3.4" fill="#e8590c"/>
+<circle cx="466.2" cy="206.2" r="3.4" fill="#e8590c"/>
+<circle cx="513.0" cy="205.7" r="3.4" fill="#e8590c"/>
+<circle cx="559.8" cy="186.1" r="3.4" fill="#e8590c"/>
+<circle cx="606.6" cy="137.4" r="3.4" fill="#e8590c"/>
+<circle cx="653.3" cy="128.1" r="3.4" fill="#e8590c"/>
+<polyline points="92.0,455.6 185.6,455.6 279.1,391.3 372.7,361.7 419.4,330.3 446.8,314.2 466.2,273.9 513.0,271.8 559.8,260.0 606.6,267.8 653.3,266.7" fill="none" stroke="#1971c2" stroke-width="2.5"/>
+<circle cx="92.0" cy="455.6" r="3.4" fill="#1971c2"/>
+<circle cx="185.6" cy="455.6" r="3.4" fill="#1971c2"/>
+<circle cx="279.1" cy="391.3" r="3.4" fill="#1971c2"/>
+<circle cx="372.7" cy="361.7" r="3.4" fill="#1971c2"/>
+<circle cx="419.4" cy="330.3" r="3.4" fill="#1971c2"/>
+<circle cx="446.8" cy="314.2" r="3.4" fill="#1971c2"/>
+<circle cx="466.2" cy="273.9" r="3.4" fill="#1971c2"/>
+<circle cx="513.0" cy="271.8" r="3.4" fill="#1971c2"/>
+<circle cx="559.8" cy="260.0" r="3.4" fill="#1971c2"/>
+<circle cx="606.6" cy="267.8" r="3.4" fill="#1971c2"/>
+<circle cx="653.3" cy="266.7" r="3.4" fill="#1971c2"/>
+<text x="653.3" y="114.1" font-size="13" font-weight="600" fill="#e8590c" text-anchor="end">offset 0: 97.84 ns</text>
+<text x="653.3" y="292.7" font-size="13" font-weight="600" fill="#1971c2" text-anchor="end">random offset: 13.51 ns</text>
+</svg>

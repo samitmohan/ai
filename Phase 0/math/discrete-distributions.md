@@ -1,6 +1,18 @@
-# Essential Math for solving ML problems
+---
+type: concept
+phase: 0
+status: read
+aliases: [Discrete Distributions, discrete distributions, Bernoulli, Binomial]
+source: https://alisawuffles.notion.site/math-notes
+code:
+---
 
-## Distributions
+# Discrete distributions
+
+## In one line
+%%TODO: the compressed answer. What single idea generates Bernoulli, binomial, and the indicator trick?%%
+
+## Why must it be this way?
 
 Two types of distrutions:
 
@@ -66,3 +78,26 @@ Because Xi is 0 or 1, Xi^2 = Xi, and all Xi behave same, you're doing this n tim
 $$
 \mathbb E[X^2]=\sum_i\mathbb E[X_i]+\sum_{i\neq j}\mathbb E[X_iX_j]=n\mathbb E[X_i]+n(n-1)\mathbb E[X_iX_j]
 $$
+
+%%TODO: this stops mid-derivation at E[X^2]. Finish it, then cover geometric, Poisson, and exponential as promised in the opening list.%%
+
+## What does it cost?
+| metric | value | unit | command |
+|---|---|---|---|
+
+## What breaks without it?
+%%TODO: where does getting this wrong bite in ML? Think loss functions and sampling.%%
+
+## Diagram
+%%TODO: grow it. Bernoulli to binomial to the indicator decomposition.%%
+
+## In code
+%%TODO: path and line range once implemented.%%
+
+## What did implementing correct?
+
+## What does this rest on?
+%%TODO: what unconditional truths does this sit on?%%
+
+## Sources
+- [Essential Math](https://alisawuffles.notion.site/math-notes#3737eb87360580b3b555e3c616713286)
