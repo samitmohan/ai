@@ -2,21 +2,23 @@
 
 ---
 
-## Phase 0: Pre-req
+## Phase 0: Do as you go along/Projects
 
 - Read tinygrad and try to recreate it: Project: MiniTorch. Make it the very best that you can. Keep adding to this as you go along.
 - Illya's 30 Paper List
-- Karpathy Zero to Hero and build nanoGPT and "Let's reproduce GPT-2" and nanoChat
-- Docker & Kubernetes master: [Docker guide](https://freedium-mirror.cfd/https://medium.com/devlink-tips/the-only-docker-guide-youll-ever-need-beginner-to-expert-35eeedeac4e8)
+- TensorTonic.
 
 ---
 
 ## Phase 1: Build the transformer until it's boring 
 
 - Raschka, Building LLMs from Scratch 
+- Hands on LLMs Jay Alammar Revision
+- Raschka Reasoning Models
 - [Life of a Token](https://www.aleksagordic.com/blog/transformer) 
 - [Raschka LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/) 
 - [Notes on essential LLM](https://alisawuffles.notion.site/alisa-s-book-of-llms)
+- Karpathy Zero to Hero and build nanoGPT and "Let's reproduce GPT-2" and nanoChat
 - [CS336 Spring 2025](https://cs336.stanford.edu/spring2025/) with assignments.
 
 
@@ -41,7 +43,7 @@
 - [Build DeepSeek](https://www.youtube.com/playlist?list=PLPTV0NXA_ZSiOpKKlHCyOq9lnp-dLvlms) + [DeepSeek-V2](https://arxiv.org/abs/2405.04434) - MLA and MoE, back-fills the MoE lecture
 - Building a reasoning model Raschka
 
-Build a triton attention kernel and start working on Nutrify ?
+Build a triton attention kernel 
 
 ---
 
@@ -83,6 +85,8 @@ Ops:
 - [LLD System Design](https://interviewready.io/account)
 - [The Accidental CTO](https://github.com/subhashchy/The-Accidental-CTO) 
 - [Distributed training in PyTorch](https://www.youtube.com/watch?v=XoGvCBRnwLs)
+- Docker & Kubernetes master: [Docker guide](https://freedium-mirror.cfd/https://medium.com/devlink-tips/the-only-docker-guide-youll-ever-need-beginner-to-expert-35eeedeac4e8)
+- RLHF book.
 
 Project: Continue building minitorch
 
@@ -102,6 +106,7 @@ Frameworks, one week, hard timebox:
 - [LangChain/LangGraph cheatsheet](https://sumanmichael.github.io/langgraph-cheatsheet/) 
 
 Agents, build one before reading about frameworks:
+- [Illustrated Guide to Agents by Jay Alammar]
 - [How to build an agent](https://ghuntley.com/agent/) - 300 lines. Build it first
 - [How agents work under the hood](https://www.youtube.com/watch?v=87T8xE-_yeo)
 - [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
@@ -122,17 +127,12 @@ Project: build an end-to-end RAG, PI agent, learn orchaestration
 [DDPM](https://arxiv.org/abs/2006.11239), [SAM](https://arxiv.org/abs/2304.02643),
 [Whisper](https://arxiv.org/abs/2212.04356). Put the
 [CNN recap](https://www.youtube.com/playlist?list=PLVZqlMpoM6kaJX_2lLKjEhWI0NlqHfqzp) right before ViT. Implement UNet. 
-
-**Revision** - [The Hitchhiker's Guide to Agentic AI](https://arxiv.org/abs/2606.24937)
+[RL](https://walkinglabs.github.io/hands-on-modern-rl/en/chapter01_cartpole/principles)
+VLM Book
 
 **Interviews** -
 [ML Interview Topics](https://silviasapora.github.io/blog/ml-interviews.html),
 [Interview Page](https://samitmohan.in/interviews) 
 [How to land a frontier job](https://vladfeinberg.com/2026/05/10/how-to-land-a-job-at-a-frontier-lab.html),
-TensorTonic.
-
----
-
-[Revision doc](https://docs.google.com/document/d/e/2PACX-1vQD8IlBotGdBxp3BnXkSjk8bNZlPV_0EH9ZA6wHd5dNf-BLSiwXUinvgv8ZoBEnNyTCF-chWO30NRw0/pub)
 
 ---
