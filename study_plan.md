@@ -41,7 +41,6 @@
 - [DPO](https://arxiv.org/abs/2305.18290)
 - [Constitutional AI](https://arxiv.org/abs/2212.08073)
 - [Build DeepSeek](https://www.youtube.com/playlist?list=PLPTV0NXA_ZSiOpKKlHCyOq9lnp-dLvlms) + [DeepSeek-V2](https://arxiv.org/abs/2405.04434) - MLA and MoE, back-fills the MoE lecture
-- Building a reasoning model Raschka
 
 Build a triton attention kernel 
 
@@ -68,9 +67,11 @@ Project: Nutrify
 ## Phase 4: Inference
 
 Inference mechanics: KV cache, paged attention, continuous batching, speculative decoding.
+- [How GPT is trained and served](https://www.youtube.com/watch?v=xmkSf5IS-zw&list=PLJf-Umv9fV2O3RyomJhiri_dRcrtgifvC&index=34)
 - [100 days of inference](https://github.com/elizabetht/100-days-of-inference)
 - [Engineering behind LLM Inference](https://www.youtube.com/playlist?app=desktop&list=PLqO45Dg1pMhlDBZTMqVL2GU-14xYip2y2)
 - [LLM inference questions](https://drive.google.com/file/d/1mfTzOnwn8yx4eKObjPvpd-B_toGkQ_tu/view)
+- [Chip Designing from Bottom Up](https://www.youtube.com/watch?v=oIk3R-sMX5o&list=PLJf-Umv9fV2O3RyomJhiri_dRcrtgifvC&index=35)
 
 Chip Huyen, AI Engineering.
 
@@ -85,6 +86,7 @@ Ops:
 - [LLD System Design](https://interviewready.io/account)
 - [The Accidental CTO](https://github.com/subhashchy/The-Accidental-CTO) 
 - [Distributed training in PyTorch](https://www.youtube.com/watch?v=XoGvCBRnwLs)
+- [SQL Revision](https://www.youtube.com/watch?v=rf57kE3HJD0&list=PLJf-Umv9fV2O3RyomJhiri_dRcrtgifvC&index=31)
 - Docker & Kubernetes master: [Docker guide](https://freedium-mirror.cfd/https://medium.com/devlink-tips/the-only-docker-guide-youll-ever-need-beginner-to-expert-35eeedeac4e8)
 - RLHF book.
 
@@ -127,6 +129,7 @@ Project: build an end-to-end RAG, PI agent, learn orchaestration
 [DDPM](https://arxiv.org/abs/2006.11239), [SAM](https://arxiv.org/abs/2304.02643),
 [Whisper](https://arxiv.org/abs/2212.04356). Put the
 [CNN recap](https://www.youtube.com/playlist?list=PLVZqlMpoM6kaJX_2lLKjEhWI0NlqHfqzp) right before ViT. Implement UNet. 
+[Youtube Playlist](https://www.youtube.com/playlist?list=PLJf-Umv9fV2O3RyomJhiri_dRcrtgifvC)
 [RL](https://walkinglabs.github.io/hands-on-modern-rl/en/chapter01_cartpole/principles)
 VLM Book
 
