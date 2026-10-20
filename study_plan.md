@@ -2,39 +2,29 @@
 
 ---
 
-## Phase 0: Do as you go along/Projects
-
-- Read tinygrad and try to recreate it: Project: MiniTorch. Make it the very best that you can. Keep adding to this as you go along.
-- Illya's 30 Paper List
-- TensorTonic.
-
----
-
 ## Phase 1: Build the transformer until it's boring 
 
-- Raschka, Building LLMs from Scratch 
-- Hands on LLMs Jay Alammar Revision
-- Raschka Reasoning Models
+- [CS336 Spring 2025](https://cs336.stanford.edu/spring2025/) with assignments.
+    - Once done, deep dive into each topic and implement, use claude to study
 - [Life of a Token](https://www.aleksagordic.com/blog/transformer) 
-- [Raschka LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/) 
 - [Notes on essential LLM](https://alisawuffles.notion.site/alisa-s-book-of-llms)
 - Karpathy Zero to Hero and build nanoGPT and "Let's reproduce GPT-2" and nanoChat
-- [CS336 Spring 2025](https://cs336.stanford.edu/spring2025/) with assignments.
+- [Looped Transformer](https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and)
 
-
+Blog: Finish CS336 with notes/assignments. Looped Transformer and why it's special.
 
 ---
 
-## Phase 2: CS336, all five assignments 
+## Phase 2: Optimisation
 
 - [Memory (drepper, cpumemory)](https://akkadia.org/drepper/cpumemory.pdf)
+- [Thinking in JAX](https://docs.jax.dev/en/latest/notebooks/thinking_in_jax.html) 
+- [How to Scale Your Model](https://jax-ml.github.io/scaling-book/) - exercises by hand.
 - Alredge, [CUDA for Deep Learning](https://www.manning.com/books/cuda-for-deep-learning)
 - [FlashAttention](https://arxiv.org/abs/2205.14135) 
 - [FlashAttention 1-4](https://arxiv.org/pdf/2603.05451)
 - [ThunderKittens](https://arxiv.org/pdf/2410.20399)
 - [GPipe](https://arxiv.org/abs/1811.06965) 
-- [Thinking in JAX](https://docs.jax.dev/en/latest/notebooks/thinking_in_jax.html) 
-- [How to Scale Your Model](https://jax-ml.github.io/scaling-book/) - exercises by hand.
 - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
 - [Chinchilla](https://arxiv.org/abs/2203.15556)
 - [InstructGPT](https://arxiv.org/abs/2203.02155)
@@ -42,7 +32,7 @@
 - [Constitutional AI](https://arxiv.org/abs/2212.08073)
 - [Build DeepSeek](https://www.youtube.com/playlist?list=PLPTV0NXA_ZSiOpKKlHCyOq9lnp-dLvlms) + [DeepSeek-V2](https://arxiv.org/abs/2405.04434) - MLA and MoE, back-fills the MoE lecture
 
-Build a triton attention kernel 
+Blog: Build a triton attention kernel, understanding optimisation in LLMs
 
 ---
 
@@ -57,10 +47,7 @@ Build a triton attention kernel
 Papers: [LoRA](https://arxiv.org/abs/2106.09685), [QLoRA](https://arxiv.org/abs/2305.14314).
 - Unsloth + HuggingFace docs.
 
-Project: Case study to imitate: [qed-nano](https://huggingface.co/spaces/lm-provers/qed-nano-blogpost),
-Revision: LLM Fine Tuning Interview Handbook
-
-Project: Nutrify
+Project and Blog: Case study to imitate: [qed-nano](https://huggingface.co/spaces/lm-provers/qed-nano-blogpost), Finish LLM Fine Tuning Interview Handbook
 
 ---
 
@@ -73,36 +60,35 @@ Inference mechanics: KV cache, paged attention, continuous batching, speculative
 - [LLM inference questions](https://drive.google.com/file/d/1mfTzOnwn8yx4eKObjPvpd-B_toGkQ_tu/view)
 - [Chip Designing from Bottom Up](https://www.youtube.com/watch?v=oIk3R-sMX5o&list=PLJf-Umv9fV2O3RyomJhiri_dRcrtgifvC&index=35)
 
+Blog: How is GPT trained and served, everything I learnt about Inference Engineering
+
 Chip Huyen, AI Engineering.
 
 Ops:
 - [LLMOps questions](https://aman.ai/primers/ai/LLMOps/)
 - [LLMOps playlist](https://www.youtube.com/playlist?list=PLQxDHpeGU14CG-wDgZDqFdjsWhWqtDGdi)
-
 - FastAPI for AI Engineers
 - [Threading](https://realpython.com/intro-to-python-threading/)
 - [Backend from first principles](https://www.youtube.com/playlist?list=PLui3EUkuMTPgZcV0QhQrOcwMPcBCcd_Q1)
 - [Primer on system design](https://medium.com/@shivambhadani_/system-design-for-beginners-everything-you-need-in-one-article-c74eb702540b)
-- [LLD System Design](https://interviewready.io/account)
-- [The Accidental CTO](https://github.com/subhashchy/The-Accidental-CTO) 
 - [Distributed training in PyTorch](https://www.youtube.com/watch?v=XoGvCBRnwLs)
 - [SQL Revision](https://www.youtube.com/watch?v=rf57kE3HJD0&list=PLJf-Umv9fV2O3RyomJhiri_dRcrtgifvC&index=31)
 - Docker & Kubernetes master: [Docker guide](https://freedium-mirror.cfd/https://medium.com/devlink-tips/the-only-docker-guide-youll-ever-need-beginner-to-expert-35eeedeac4e8)
-- RLHF book.
 
-Project: Continue building minitorch
+Blog: Understanding systems and LLMOps
 
 ---
 
 ## Phase 5: RAG and agents 
 
 RAG:
-- [RAG Stanford lecture](https://www.youtube.com/watch?v=h-7S6HNq0Vg&list=PLJf-Umv9fV2O3RyomJhiri_dRcrtgifvC&index=28)
 - [Emerging patterns in GenAI](https://martinfowler.com/articles/gen-ai-patterns/#PuttingTogetherARealisticRag)
 - [Prod RAG](https://arpitbhayani.me/blogs/rag-production)
 - [RAG design and eval guide](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/rag/rag-solution-design-and-evaluation-guide)
 - [RAG CampusX course](https://learnwith.campusx.in/s/courses/69d8037290a183fe36833265/take)
 - [LLM Evals](https://www.youtube.com/playlist?list=PLEneLIDJFpcA) 
+
+Blog: Lessons from building RAGs 
 
 Frameworks, one week, hard timebox:
 - [LangChain/LangGraph cheatsheet](https://sumanmichael.github.io/langgraph-cheatsheet/) 
@@ -117,12 +103,12 @@ Agents, build one before reading about frameworks:
 - [Practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)
 - [Agentic AI Interview](https://learn.manifoldailearning.com/services/agentic-interview)
 
+Blog: Agentic AI Frameworks and lessons
 
-Project: build an end-to-end RAG, PI agent, learn orchaestration
-
+Projects: PI agent, minitorch, end-to-end RAG for company
 ---
 
-## More Resources
+## Computer Vision
 
 [ViT](https://arxiv.org/abs/2010.11929),
 [CLIP](https://arxiv.org/abs/2103.00020), [VAE](https://arxiv.org/abs/1312.6114),
@@ -132,10 +118,14 @@ Project: build an end-to-end RAG, PI agent, learn orchaestration
 [Youtube Playlist](https://www.youtube.com/playlist?list=PLJf-Umv9fV2O3RyomJhiri_dRcrtgifvC)
 [RL](https://walkinglabs.github.io/hands-on-modern-rl/en/chapter01_cartpole/principles)
 VLM Book
+[Speculative Decoding](https://neurips2026-speculative-decoding.vercel.app/)
+
+Blog: Computer Vision 101
 
 **Interviews** -
 [ML Interview Topics](https://silviasapora.github.io/blog/ml-interviews.html),
 [Interview Page](https://samitmohan.in/interviews) 
 [How to land a frontier job](https://vladfeinberg.com/2026/05/10/how-to-land-a-job-at-a-frontier-lab.html),
-
+Illya's 30 Paper List
+TensorTonic
 ---
